@@ -1,5 +1,18 @@
 # spring-security-authentication-exam
 
+## 목적
+스프링 시큐리티를 이용해 form 로그인 기능을 구현해보자!
+
+### 시나리오
+
+- 인증 기능을 구현한다.
+- 로그인 화면에서 인증 요청을 받는다.
+- 인증 요청 정보를 Member 데이터베이스에 저장된 정보와 대조해 인증한다.
+
+### 빌드 
+```$) gradlew build ```
+
+
 ## 테스트 데이터
 MemberService 빈이 생성되면서 Member 테스트 데이터가 생성되도록 했습니다.  
 
